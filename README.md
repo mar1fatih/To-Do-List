@@ -8,9 +8,6 @@ This is a simple and interactive **To-Do List** application built with **React**
 - ❌ **Delete Tasks**: Remove any task using the delete button.
 - ⬆️⬇️ **Prioritize Tasks**: Move tasks up or down in the list to change their priority.
 
-## Demo
-[Live Demo (if hosted)](your-demo-link-here)
-
 ## Installation
 To run this project locally, follow these steps:
 
@@ -18,15 +15,15 @@ To run this project locally, follow these steps:
 ```sh
 git clone https://github.com/your-username/todo-list-react.git
 cd todo-list-react
-
+```
 ### 2. Install Dependencies
 ```sh
 npm install
-
+```
 ### 3. Run the Application
 ```sh
 npm run dev
-
+```
 The app will be available at http://localhost:5173 or http://localhost:5174
 
 ## Usage
