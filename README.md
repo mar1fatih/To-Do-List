@@ -43,7 +43,7 @@ Click ❌ Delete to remove a task.
 💅 CSS (Styling)
 
 ## Folder Structure
-
+```sh
 📂 To-Do-List
  ├── 📁 src
  │   ├── 📄 main.jsx  (Main component)
@@ -52,7 +52,7 @@ Click ❌ Delete to remove a task.
  │   └── 📄 App.jsx (Entry point)
  ├── 📄 package.json
  ├── 📄 README.md
-
+```
 ## Contributing
 
 Feel free to submit issues or pull requests. Contributions are welcome! 🚀
