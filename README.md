@@ -1,37 +1,35 @@
-React To-Do List
+# React To-Do List
 
-Overview
+## Overview
+This is a simple and interactive **To-Do List** application built with **React**. It allows users to add tasks, delete tasks, and prioritize tasks using up and down buttons.
 
-This is a simple and interactive To-Do List application built with React. It allows users to add tasks, delete tasks, and prioritize tasks using up and down buttons.
+## Features
+- 📌 **Add Tasks**: Enter a task in the input field and add it to the list.
+- ❌ **Delete Tasks**: Remove any task using the delete button.
+- ⬆️⬇️ **Prioritize Tasks**: Move tasks up or down in the list to change their priority.
 
-Features
+## Demo
+[Live Demo (if hosted)](your-demo-link-here)
 
-📌 Add Tasks: Enter a task in the input field and add it to the list.
-
-❌ Delete Tasks: Remove any task using the delete button.
-
-⬆️⬇️ Prioritize Tasks: Move tasks up or down in the list to change their priority.
-
-Installation
-
+## Installation
 To run this project locally, follow these steps:
 
-1. Clone the Repository
+### 1. Clone the Repository
+```sh
+git clone https://github.com/your-username/todo-list-react.git
+cd todo-list-react
 
-git clone https://github.com/mar1fatih/To-Do-List.git
-cd To-Do-List
-
-2. Install Dependencies
-
+### 2. Install Dependencies
+```sh
 npm install
 
-3. Run the Application
-
+### 3. Run the Application
+```sh
 npm run dev
 
 The app will be available at http://localhost:5173 or http://localhost:5174
 
-Usage
+## Usage
 
 Type a task in the input field.
 
@@ -41,13 +39,13 @@ Use the ⬆ Up and ⬇ Down buttons to reorder tasks.
 
 Click ❌ Delete to remove a task.
 
-Technologies Used
+## Technologies Used
 
 ⚛️ React (Frontend UI)
 
 💅 CSS (Styling)
 
-Folder Structure
+## Folder Structure
 
 📂 To-Do-List
  ├── 📁 src
@@ -58,11 +56,11 @@ Folder Structure
  ├── 📄 package.json
  ├── 📄 README.md
 
-Contributing
+## Contributing
 
 Feel free to submit issues or pull requests. Contributions are welcome! 🚀
 
-License
+## License
 
 This project is licensed under the MIT License.
 
