@@ -1,12 +1,69 @@
-# React + Vite
+React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This is a simple and interactive To-Do List application built with React. It allows users to add tasks, delete tasks, and prioritize tasks using up and down buttons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+📌 Add Tasks: Enter a task in the input field and add it to the list.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+❌ Delete Tasks: Remove any task using the delete button.
+
+⬆️⬇️ Prioritize Tasks: Move tasks up or down in the list to change their priority.
+
+Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the Repository
+
+git clone https://github.com/mar1fatih/To-Do-List.git
+cd To-Do-List
+
+2. Install Dependencies
+
+npm install
+
+3. Run the Application
+
+npm run dev
+
+The app will be available at http://localhost:5173 or http://localhost:5174
+
+Usage
+
+Type a task in the input field.
+
+Click Add to add the task to the list.
+
+Use the ⬆ Up and ⬇ Down buttons to reorder tasks.
+
+Click ❌ Delete to remove a task.
+
+Technologies Used
+
+⚛️ React (Frontend UI)
+
+💅 CSS (Styling)
+
+Folder Structure
+
+📂 To-Do-List
+ ├── 📁 src
+ │   ├── 📄 main.jsx  (Main component)
+ │   ├── 📄 todolist.jsx (Task component)
+ │   ├── 📄 index.css (Styling)
+ │   └── 📄 App.jsx (Entry point)
+ ├── 📄 package.json
+ ├── 📄 README.md
+
+Contributing
+
+Feel free to submit issues or pull requests. Contributions are welcome! 🚀
+
+License
+
+This project is licensed under the MIT License.
+
+Made with ❤️ using React.
